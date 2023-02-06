@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px; 
+}
+h1,h2,h3,h4,h5,h6{
+ font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+ width: 700px;
+ height: 400px;
+ background: green;
+ position: relative;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 32%;
+    left: 40%; 
+} 
+.fb-share{
+     width: 160px;
+     position: fixed;
+     top: 50%;
+     right: -11%;
+     transition: 1S;
+}
+.fb-share:hover{
+    right: -5px;
+    cursor: pointer;
+}
+.subscribe-share{
+    width: 120px;
+    position: fixed;
+    top: 70%;
+    right: -8%;
+    transition: 1s;
+}
+.subscribe-share:hover{
+    right: -2px;
+    cursor: pointer;
+}
+.follow-share{
+    width: 160px;
+    position: fixed;
+    top: 60%;
+    right: -130px;
+    transition: 1s;
+}
+.follow-share:hover{
+    right: -2px;
+    cursor: pointer
+}
+ .social-icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 80px 0px 0px;
+ }
+ .social-icons li{
+    list-style: none;
+    display: inline-block;
+ }
+ .social-icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 80px 0px 0px;
+ }
+ .social-icons li{
+    list-style: none;
+    display: inline-block;
+ }
+ .social-icons li a{
+    display: block;
+    margin: 0px 10px;
+    transition: 1s;
+ }
+.social-icons li a .fa-facebook{
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #1558AD;
+    color: #fff;
+    border: 1px solid #1558AD;
+    transition: 1s;
+    
+}
+.social-icons li a .fa-facebook:hover{
+    background: transparent;
+    color: #1558AD;
+    border: 1px solid #1558AD;
+}
+.social-icons li a .fa-instagram{
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #F54660;
+    color: #fff;
+    border: 1px solid #F54660;
+    transition: 1s;
+    
+}
+.social-icons li a .fa-instagram:hover{
+    background: transparent;
+    color: #F54660;
+    border: 1px solid #F54660;
+}
+.social-icons li a .fa-linkedin{
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #0077B5;
+    color: #fff;
+    border: 1px solid #0077B5;
+    transition: 1s;
+    
+}
+.social-icons li a .fa-linkedin:hover{
+    background: transparent;
+    color: #0077B5;
+    border: 1px solid #0077B5;
+}
+.social-icons li a .fa-youtube{
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #FF0000;
+    color: #fff;
+    border: 1px solid #FF0000;
+    transition: 1s;
+    
+}
+.social-icons li a .fa-youtube:hover{
+    background: transparent;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+}
+.social-icons li a .fa-twitter{
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #1C99E7;
+    color: #fff;
+    border: 1px solid #1C99E7;
+    transition: 1s;
+    
+}
+.social-icons li a .fa-twitter:hover{
+    background: transparent;
+    color: #1C99E7;
+    border: 1px solid #1C99E7;
+}
+.social-icons li a .fa-whatsapp{
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #41DE5D;
+    color: #fff;
+    border: 1px solid #41DE5D;
+    transition: 1s;
+    
+}
+.social-icons li a .fa-whatsapp :hover{
+    background: transparent;
+    color: #41DE5D;
+    border: 1px solid #41DE5D;
+}
+.social-icons li a .fa-telegram{
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background: #209CD8;
+    color: #fff;
+    border: 1px solid #209CD8;
+    transition: 1s;
+    
+}
+.social-icons li a .fa-telegram :hover{
+    background: transparent;
+    color: #209CD8;
+    border: 1px solid #209CD8;
+}
